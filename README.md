@@ -42,10 +42,7 @@ If it shows version → You're good! Skip to Step 2.
 Open Command Prompt (Windows) and run:
 
 ```bash
-# Navigate to your project folder
-cd path\to\Dheeraj
-
-# Install required packages
+cd C:\path\to\your\Dheeraj\folder
 pip install -r requirements.txt
 ```
 
@@ -77,7 +74,7 @@ Then it will:
 
 ---
 
-## 📋 Example
+## 📋 Example Output
 
 ```bash
 C:\Dheeraj> python main.py
@@ -146,7 +143,7 @@ Ready to upload to YouTube or Instagram! 🎥
 
 ### **Problem: Video file not found**
 - Solution: Use full path, example: `C:\Users\YourName\Downloads\video.mp4`
-- Or copy video to `clips/` folder and just type: `video.mp4`
+- Or copy video to the repo folder and just type: `video.mp4`
 
 ### **Problem: Slow processing**
 - This is normal for large videos (1GB+)
@@ -180,16 +177,6 @@ Once you have clips, you can:
 - **Adjust motion threshold** in code if clips are boring (change `threshold=25` to lower number like `15`)
 - **Change clip duration** - Enter different seconds at runtime
 - **Run multiple times** on same video with different settings
-
----
-
-## 🆘 Need Help?
-
-If something breaks:
-1. Copy the error message
-2. Check Troubleshooting section
-3. Make sure Python and FFmpeg are installed
-4. Run from Command Prompt (not from folder)
 
 ---
 
